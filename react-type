@@ -1,0 +1,39 @@
+#  TYPE SCRIPT
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx# 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx# 
+ 
+// TYPESCRIPT /======================================================================/
+ 
+
+# 
+
+
+# create app
+$ create-react-app <NAME> --template typescript
+$ create-react-app typescript-shopping-cart --template typescript
+
+# redux
+$ npm i redux redux-thunk redux-devtools-extension react-redux
+$ npx create-react-app twitter --template redux
+ 
+# dependancies
+$ npm i --save-dev @types/react-redux
+$ npm i --save-dev @types/uuid
+$ npm i react-query
+$ npm i styled-components @types/styled-components
+$ npm uninstall styled-components
+
+#  font awesome
+$ npm i react-fontawesome 
+import 'font-awesome/css/font-awesome.min.css';
+var FontAwesome = require('react-fontawesome')
+             <FontAwesome className="fa-arrow-up increase" name="fa-arrow-up" />
+
+# ids
+# import { v4 as uuidv4 } from 'uuid';
+$ import { v4 as uuidv4 } from 'uuid';
+#
+$ import { nanoid } from '@reduxjs/toolkit'
+$ id: nanoid(),
+
+ 
